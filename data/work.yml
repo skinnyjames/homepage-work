@@ -1,0 +1,315 @@
+---
+# Jobs I've worked
+- 
+    id: herald-whig
+    employer: Herald Whig
+    position: Newspaper Delivery
+    start: 1999-10-01 
+    end: 2000-5-01
+    skills: ['Friendliness', 'Punctuality', 'Efficiency']
+    keywords: ['Newspaper Delivery']
+    logo: 
+    about: |
+      The Herald Whig is a newspaper that serves the Quincy, IL area with news, sports, and entertainment.
+      My first job, I delivered newspapers to an adjacent neigborhood.  I have fond memories of waking up t 5a.m. to stacks of unbundled newspapers, keeping a collection of rubber bands, and slipping on ice during the winter. My mom helped sometimes.  Thanks, Mom.
+-   
+    id: asbury-methodist-village
+    employer: Asbury Methodist Village
+    position: Server
+    start: 2000-08-01
+    end: 2001-06-01
+    skills: 
+    keywords: []
+    logo: 
+    about: |
+      Asbury Methodist Village is a Retirement Community in Gaithersburg, Maryland that provides Montgomery County with continuous care and residential services.  
+      I worked as a server and busser, providing excellent customer service, and making friends with coworkers and residents.  I remember ironing tuxedo shirts and watching the dishwasher chug a bottle of tabasco. (He was not provoked).
+- 
+    id: cassanos
+    employer: Cassanos Pizza & Subs
+    position: Cook, Driver, Server
+    start: 2001-10-01
+    end: 2004-04-01
+    skills:
+    keywords: []
+    logo: 
+    about: |
+      Cassanos is a locally owned and operated Pizza & sub restaurant with locations accross the midwest. 
+      Cassanos was my first back of the house restaurant experience, and during my time there I learned everything from preparing, cooking, delivering and serving pies, answering phones, making salads, washing dishes, running a grill, fryer, and convection oven, and how to work quickly under pressure.  I trained new hires. I left Cassanos with great memories and some burns from the brick oven. 
+- 
+    id: kriegers
+    employer: Kriegers Sports Bar & Grill
+    position: App Cook
+    start: 2003-08-01
+    end: 2004-02-01
+    skills: []  
+    keywords: []
+    logo:
+    about: |
+     Kriegers was a Bar and Grill located in the Quincy Mall, in Quincy, IL.  I started there as a appetizer cook, frying and preparing Tex-Mex appetizers, soups and oven cooked foods.  Kreigers was my second job, and although I enjoyed the work and my coworkers, I eventually left to work full-time elsewhere. 
+-
+    id: sin
+    employer: Spanking Internet Networks
+    position: Developer
+    start:
+    end:
+    skills: ['Perl','MySQL', 'ASP']
+    keywords: []
+    logo: 
+    about: |
+      Spanking Internet Networks (S.I.N.) is a ...
+ 
+      This was my very first web development job, that I worked during my freshman year at Western Illinois University.  I was offered the position of writing scripts to support the backend of the website after I offered suggestions on how to write a registration script on devshed.com.  
+      I utilized Perl, CGI, and DBI to write scripts that increased the functionality of the website.  It was truly a unqiue community and experience.  
+-
+    id: timpones
+    employer: Timpones
+    position: Pizza Cook
+    start: 
+    end: 
+    skills: 
+    keywords:
+    logo: 
+    about: |
+      Timpones is a fine dining Italian restauraunt in Urbana, Illinois.  I worked there as a pizza maker for short period of time in a fast paced, high stress environment.  I learned that there is more than one way to prepare a pie. 
+-
+    id: subway
+    employer: Subway
+    position: Sandwich Artist, Shift Leader
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Subway is a sandwich shop franchise, and I worked out of an Urbana location at 801 S. Gregory st, before and during my time at Parkland Community College.  I was a keyholder and often closed or opened the store.  I trained new employees, managed money and deposits, and prepared many subs. One of my favorite memories there (besides our bar-crawl) include a letter to the company complimenting my efficient and courteous service during a particularly busy day.  
+-
+    id: auntie-annes
+    employer: Auntie Annes
+    position: Customer Service
+    start: 
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Auntie Annes is a pretzel shop franchise, and I worked for a short time at the Market Place Shopping center in Champaign, Illinois.  Surrounded by retail, I provided quick, polite, and patient service.  I also ate many pretzel dogs.  
+-
+    id: cdepot
+    employer: CDepot
+    position: Customer Service
+    start: 
+    end:
+    skills:
+    keywords: 
+    logo:
+    about: |
+      CDepot is an indepently owned new and used record store in College Park, Maryland that sells DVD's, Games, CDs, and Vinyl. Working at CDepot was my first experience in retail, and provided customer service while catalouging, sorting, and processing CD's.  I learned a lot about music and helping maintain a physical media library.  I made many friends there and warmly remember listening to Jackson 5 and 
+-
+    id: artwhino
+    employer: Art Whino
+    position: Intern/Volunteer
+    start: 
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Artwhino is an art gallery based in Washington D.C. that showcases leading low-brow work by Artists from all over the world.  While interning at Art Whino I learned a lot about hanging, handling, selling, and packaging a variety of art forms.  On the backdrop of National Harbor, I met interesting people, worked interesting events, and worked around a lot of great art.
+-
+    id: white-oak 
+    employer: White Oak Gas Station 
+    position: Attendant
+    start: 
+    end: 
+    skills:
+    keywords:
+    logo:
+    about: |
+      After traveling through Europe and hitchiking accross the states, I found myself staying with a friend in Fayetteville, Arkansas. At the White Oak Gas station I learned a different kind of retail, stocking shelves and coolers, putting on coffee, and providing the friendliest service there is.  I left to pursue a degree in Chicago, but the owner said if I find myself in Fayeteville again, I'm welcome back. 
+- 
+    id: campus-housing
+    employer: UIC Campus Housing
+    position: Graphic Design & Web Development 
+    start: 
+    end: 
+    skills:
+    keywords:
+    logo:
+    about: |
+-
+    id: gallery-400
+    employer: Gallery 400
+    position: Web Developer/Gallery Worker  
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Gallery 400 is a contemporary art gallery in Chicago Illinois that offers leading edge programming, art, and events.  I worked at Gallery 400 as a Web Developer and Gallery Worker during my time at UIC.  I utilized HTML and CSS to update the website with new content and images.  I also helped with the manual duties of the gallery: mopping, repairing, patching, and painting after exhibitions.  I had the opportunity to witness many unique ideas and forms, and met many interesting people.  One of my favorite projects there was assembling and painting the shelving for the gallery's library.  I wonder if they still use it? 
+-
+    id: einstein
+    employer: Einstein Bros. Bagels
+    position: Customer Service
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Einstein Bros. Bagels is a coffee and bagel shop chain with locations all over the United States.  I worked at the Old Town location in Chicago, IL from ___ to __.  I provided excellent customer service, assisting customers in learning about our menu, and shmearing many bagels.  I left Einstein Bros Bagels to move to Columbus, Ohio. 
+-
+    id: plant
+    employer: The Plant
+    position: Volunteer
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: | 
+      The Plant is a former meatpacking plant in Chicago, IL repurposed to implement innovative circular economies of food production, engergy conservation and material reuse.  I volunteered there for a couple of days cleaning, harvesting, and moving industrial material.  It was an awesome experience, and I learned about some of the processes that the Plant uses including aquaponics and repurposed materials. 
+-
+    id: barnes-and-noble
+    employer: Barnes & Noble
+    position: Customer Service
+    start: 
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Barnes and Noble is a retailer of books, digital media, and content in the United States.  I worked at Barnes and Noble Polaris Mall location in Columbus, Ohio.  I worked in the Music and DVD department, providing customer service, processing materials, and running a cash register. It was an fun experience, and I learned a lot about contemporary music and movies. 
+-
+    id: olive-garden
+    employer: Olive Garden
+    position: Server
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Olive Garden is a Italian restaurant accross the United States.  I worked at the Polaris location in Columbus Ohio as a server.  I provided assitance to customers in food and wine selection, served food, and provided team support of delivery service.  I learned a lot about wines and wine pairings.
+-
+    id: goody-boy
+    employer: Micheal's Goody Boy Diner
+    position: Server/Bartender
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Michael's Goody Boy Diner is a Mediterreanean diner located in the Short North area of Columbus, Ohio.  I worked there from ___ to ___ as a Bartender and Server.  My first bartending job, I learned how to provide great customer service while making drinks for servers.  I opened and closed the front of the house. I made great friends and got to know the regulars. I served flaming cheese, extinguishing it with a hearty "OPA!"  Working at the Goody Boy diner was truly a unique and amazing experience. 
+-
+    id: skreened
+    employer: Skreened
+    position: Junior Web Developer
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+-
+    id: kobe
+    employer: Kobe Japanese Steakhouse
+    position: server
+    start: 
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Kobe Japanese Steakhouse is an upscale sushi restaurant and hibachi grill in Easton, Ohio.  I worked there for a week in ______, as a server. During my short time there, I learned a lot about the performative ritual of Kobe, timing served courses of soup, salad and rice.  I also got to wear a kimono, which was pretty cool. 
+-
+    id: coach-house
+    employer: Coach House
+    position: Dishwasher
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Coach house is a locally owned, all intents restaurant popular for their breakfast and salad bar.  I worked there as a Dishwasher from _____ to _____.
+      I worked in a fast paced environment: unloading carts, scraping, scrubbing and rinsing dishes, and putting them back out.  I also was in charge of some interesting projects including changing all of the lights outside the restaraunt.
+-
+    id: thyme-square
+    employer: Thyme Square
+    position: Busser
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: | 
+      Thyme Square is an organic farm-to-table breakfast restaurant in Quincy, IL.  I worked there as a Busser.  During my short time there, I learned about locally sourced foods in the Quincy area. I left to seek more stable work. 
+-
+    id: fye
+    employer: F.Y.E.
+    position: Customer Service
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      F.Y.E (For your entertainment) is an entertainment and apparel retailer nationwide.  I worked at the Quincy Mall location from ____ to ____ as a Customer Service representative. I assisted customers in locating items, processed used and new inventory, and helped move displays.  I got to meet some interesting regulars and learn about trending music and movies. My favorite memory there was working before christmas and wearing holiday aprons.
+-
+    id: rizzos
+    employer: Rizzo's Pizza
+    position: Server
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Rizzo's Pizza was a pizza joint located in Quincy, IL.  I had a promising start there as a server, but unfortunately I couldn't reconcile the hours with my other job.  During my short time there, I learned another way to make a pie. 
+-
+    id: valerie
+    employer: Valerie Weir
+    position: Painter
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Valerie Weir is a Realtor and Property owner in Quincy, IL.  After doing odd jobs for her, like checking water meters on her property, she facilitated a job painting a house and bringing it up to FHA Standards.  I scraped and painted window frames, interior walls, and awnings.  I learned techniques for craftsmanship. It was a fun and sunny experience.  
+-
+    id: qcc
+    employer: Quincy Country Club
+    position: Bartender
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      I started at the Quincy Country Club as a bartender in ___ and worked there until ____.  I learned a lot about spirits, wines, and beers, as well as bar managment.  At the Quincy Country Club I was complimented on my Cosmo's and Lemon Drop Martini's.   It was a great and enjoyable experience, and I made many friends there.
+-
+    id: cab
+    employer: Irenes Cabaret
+    position: Bartender
+    start:
+    end:
+    skills:
+    keywords:
+    logo:
+    about: |
+      Irene's Cabaret is a late-night Gay bar in Quincy, IL.  I started there in ____ and worked until ___.  I learned how to sling and ring, and served highballs and beers with a polite disposition.  I met a plethora of awesome and interesting people and performers, and have many fond memories of working late nights. 
+- 
+    id: adams-fiber
+    employer: Adams Fiber
+    position: Developer
+    start: 2016-01-01
+    end: 
+    skills:
+    keywords:
+    logo:
+    about: |
+      Adams Fiber is a part of Adams Telephone Cooperative, a telecommunications cooperative that is currently bringing fiber internet to Quincy, IL and surrounding rural communities.  I started working at Adams Fiber as a programmer in January of 2016.  I've had the opportunity to work on many interesting projects, using a variety of tools, software, and languages.  I've made wordpress plugins, interactive animations, rails apps, and clojure programs.  I've worked with Progress, Oracle and MySQL databases, optimizing queries for large datasets.  I've worked with and developed for the Salesforce platform, and am excited to see what happens next.
