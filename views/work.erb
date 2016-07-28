@@ -1,13 +1,88 @@
-<html>
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <script src="/assets/js/mustache.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript">
-      var jobs = <%= @jobs %>;
-    </script>
-  </head>
-  <body>
-  </body>
-</html>
+<script type="text/javascript">      
+  var jobs = <%= @jobs %>;
+  $(document).ready(function(){
+    kategories = $.unique( $.map(jobs, function(obj){ return obj.keywords;}) );
+    createButtons(kategories)
+    render(jobs);
+    $('#job-summary').mixItUp();
+  });
+
+  function createButtons(jobs){
+    html = '<div class="filter btn" data-filter="all">Show All</div>';
+    $.each(jobs,function(i,j){
+      html += '<div class="filter btn" data-filter=".' + j.split(' ').join('_') + '">' + j + '</div>';
+    });
+    $('#buttons').html(html);
+  }
+  function render(jobs){
+    // inflate with readable dates and categories
+    $.each(jobs,function(i,obj){
+      obj.keyword_string = $.map(obj.keywords,function(k){ return k.split(' ').join('_'); }).join(' ');
+      start_date = new Date(obj.start);
+      end_date = new Date(obj.end);
+      obj.start_year =  $.format.date(start_date, "yyyy");
+      obj.start_month = $.format.date(start_date, "MMMM");
+      if(obj.end == null){
+        obj.end_month = "Current";
+        obj.end_year = "Job"; 
+      }else{
+        obj.end_year =  $.format.date(end_date, "yyyy");
+        obj.end_month = $.format.date(end_date, "MMMM");
+      }
+    });
+
+    summary = $.map(jobs,function(obj){ return Mustache.render($('#job-template').html(), obj);});
+    about = $.map(jobs,function(obj){ return Mustache.render($('#job-body-template').html(), obj);});
+    $("#job-summary").html(summary.join(''));
+    $("#job-about").html(about.join(''));
+  }
+
+</script>
+<div id="work" class="row middle-xs center-xs">
+  <div id="page-title" class="col-xs-10">
+    <h1>Places I've Worked</h1>
+  </div>
+</div>
+<div class="row middle-xs center-xs" style="background-color:#0097a7;">
+  <div class="col-xs-8" id="buttons">
+  </div>
+  <div class="col-xs-10">
+    <div id="job-summary" class="row center-xs">
+    </div>
+  </div>
+</div>
+<div class="row center-xs">
+  <div class="col-xs-8" id="job-about">
+  </div>
+</div>
+<script id="job-template" type="x-tmpl-mustache">
+  <div class="col-xs-12 col-sm-4 col-lg-3 mix {{keyword_string}}"> 
+    <div class="job-square">
+      <div class="job-info">
+        <img src="/assets/img/logos/{{logo}}" style="height:50px;">
+        <h3><a href="#{{id}}">{{employer}}</a></h3>
+        <p>{{position}}</p>
+      </div>
+      <div class="dates">
+        <span class="date">
+          <span class="month">{{start_month}}</span>
+          <span class="year">{{start_year}}</span>
+        </span>
+           to 
+        <span class="date">
+          <span class="month">{{end_month}}</span>
+          <span class="year">{{end_year}}</span>
+        </span>
+      </div><!-- end dates -->
+    </div><!-- end square -->
+  </div><!-- end column -->
+</script>
+<script id="job-body-template" type="x-tmpl-mustache">
+  <div id="{{id}}" class="job-body">
+    <h1><img src="/assets/img/logos/{{logo}}" style="height:50px;"><span style="vertical-align:middle;"> {{employer}}</span></h1>
+    <div class="job-description">
+      {{about}}
+    </div>
+    <a href="#buttons">Back to top</a>
+  </div>
+</script>

@@ -9,5 +9,5 @@ end
 
 get '/work' do 
   @jobs = JSON.dump(YAML.load_file('data/work.yml'))
-  erb :work
+  erb :work, :layout => :application
 end
